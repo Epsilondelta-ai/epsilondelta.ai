@@ -61,6 +61,19 @@
 					}
 				]
 			},
+			products: {
+				title: '제품',
+				visitButton: '서비스 바로가기',
+				items: [
+					{
+						name: 'YouTube 영상 요약기',
+						description:
+							'긴 YouTube 영상, 볼 시간이 없다면? AI가 핵심만 빠르게 요약해 드립니다. 중요한 내용을 놓치지 마세요.',
+						link: 'https://youtube-summarizer.epsilondelta.ai'
+					}
+				],
+				comingSoon: '더 많은 제품들이 출시될 예정입니다. 기대해주세요!'
+			},
 			pricing: {
 				title: '가격 정책',
 				buyButton: '구매하기',
@@ -73,7 +86,8 @@
 						price: '$5',
 						credits: '30 크레딧'
 					}
-				]
+				],
+				comingSoon: 'More products are coming soon. Stay tuned!'
 			}
 		},
 		en: {
@@ -112,6 +126,19 @@
 					}
 				]
 			},
+			products: {
+				title: 'Products',
+				visitButton: 'Visit Service',
+				items: [
+					{
+						name: 'YouTube Video Summarizer',
+						description:
+							"Don't have time to watch long YouTube videos? Our AI provides fast and accurate summaries. Don't miss out on the key points.",
+						link: 'https://youtube-summarizer.epsilondelta.ai'
+					}
+				],
+				comingSoon: 'More products are coming soon. Stay tuned!'
+			},
 			pricing: {
 				title: 'Pricing',
 				buyButton: 'Buy Now',
@@ -124,7 +151,8 @@
 						price: '$5',
 						credits: '30 Credits'
 					}
-				]
+				],
+				comingSoon: 'More products are coming soon. Stay tuned!'
 			}
 		}
 	};
@@ -268,6 +296,37 @@
 					</CardContent>
 				</Card>
 			</div>
+		</div>
+	</section>
+
+	<Separator class="my-12" />
+
+	<!-- Products Section -->
+	<section id="products" class="px-6 py-16">
+		<div class="container mx-auto max-w-4xl">
+			<h2 class="mb-12 text-center text-3xl font-bold text-slate-900 dark:text-white">
+				{currentContent.products.title}
+			</h2>
+			<div class="mx-auto grid max-w-2xl gap-8">
+				{#each currentContent.products.items as product}
+					<Card
+						class="flex flex-col justify-between border border-slate-200 text-center transition-shadow hover:shadow-lg dark:border-slate-800"
+					>
+						<CardHeader>
+							<CardTitle>{product.name}</CardTitle>
+							<CardDescription class="pt-2">{product.description}</CardDescription>
+						</CardHeader>
+						<CardContent>
+							<a href={product.link} target="_blank" rel="noopener noreferrer" class="w-full">
+								<Button class="w-full">{currentContent.products.visitButton}</Button>
+							</a>
+						</CardContent>
+					</Card>
+				{/each}
+			</div>
+			<p class="mt-12 text-center text-lg text-slate-600 dark:text-slate-400">
+				{currentContent.products.comingSoon}
+			</p>
 		</div>
 	</section>
 
