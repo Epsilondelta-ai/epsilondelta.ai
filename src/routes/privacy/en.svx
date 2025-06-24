@@ -4,7 +4,7 @@ effectiveDate: 'Effective Date: July 25, 2024'
 ---
 ### **EpsilonDelta Privacy Policy**
 
-EpsilonDelta (the "Company") complies with personal information protection regulations under relevant laws, such as the Act on Promotion of Information and Communications Network Utilization and Information Protection, and the Personal Information Protection Act. We are committed to protecting user rights by establishing a privacy policy based on these laws.
+EpsilonDelta Inc. (the "Company") complies with personal information protection regulations under relevant laws, such as the Act on Promotion of Information and Communications Network Utilization and Information Protection, and the Personal Information Protection Act. We are committed to protecting user rights by establishing a privacy policy based on these laws.
 
 **Article 1 (Personal Information Collection and Purpose)**
 1.  The Company collects the following minimum personal information as mandatory items for membership registration, smooth customer consultation, and provision of various services.
