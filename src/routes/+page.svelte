@@ -7,9 +7,9 @@
 		CardTitle
 	} from '$lib/components/ui/card';
 	import { Separator } from '$lib/components/ui/separator';
-	import { onMount } from 'svelte';
+	import { Button } from '$lib/components/ui/button';
 
-	import { Accessibility, BarChartBig, Brain } from 'lucide-svelte';
+	import { Accessibility, ChartColumnBig, Brain } from 'lucide-svelte';
 
 	const year = new Date().getFullYear();
 
@@ -60,6 +60,20 @@
 							'기업과 조직이 보유한 데이터를 AI로 분석하여 의미 있는 인사이트를 도출하고, 데이터 기반의 현명한 의사결정을 내릴 수 있도록 지원하여 비즈니스 성장을 돕습니다.'
 					}
 				]
+			},
+			pricing: {
+				title: '가격 정책',
+				buyButton: '구매하기',
+				items: [
+					{
+						price: '$2',
+						credits: '10 크레딧'
+					},
+					{
+						price: '$5',
+						credits: '30 크레딧'
+					}
+				]
 			}
 		},
 		en: {
@@ -95,6 +109,20 @@
 						title: 'Intelligent Data Analysis',
 						description:
 							'We help businesses grow by analyzing their data with AI to derive meaningful insights and support smart, data-driven decision-making.'
+					}
+				]
+			},
+			pricing: {
+				title: 'Pricing',
+				buyButton: 'Buy Now',
+				items: [
+					{
+						price: '$2',
+						credits: '10 Credits'
+					},
+					{
+						price: '$5',
+						credits: '30 Credits'
 					}
 				]
 			}
@@ -229,7 +257,7 @@
 						<div
 							class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-purple-100 dark:bg-purple-900"
 						>
-							<BarChartBig class="h-6 w-6 text-purple-600 dark:text-purple-400" />
+							<ChartColumnBig class="h-6 w-6 text-purple-600 dark:text-purple-400" />
 						</div>
 						<CardTitle class="text-lg">{currentContent.services.items[2].title}</CardTitle>
 					</CardHeader>
@@ -243,10 +271,47 @@
 		</div>
 	</section>
 
+	<Separator class="my-12" />
+
+	<!-- Pricing Section -->
+	<section id="pricing" class="px-6 py-16">
+		<div class="container mx-auto max-w-4xl">
+			<h2 class="mb-12 text-center text-3xl font-bold text-slate-900 dark:text-white">
+				{currentContent.pricing.title}
+			</h2>
+			<div class="mx-auto grid max-w-lg gap-8 md:grid-cols-2">
+				{#each currentContent.pricing.items as plan}
+					<Card
+						class="flex flex-col justify-between border border-slate-200 text-center transition-shadow hover:shadow-lg dark:border-slate-800"
+					>
+						<CardHeader>
+							<p class="text-4xl font-bold text-slate-900 dark:text-white">{plan.price}</p>
+							<p class="text-xl text-slate-500 dark:text-slate-400">{plan.credits}</p>
+						</CardHeader>
+						<CardContent>
+							<Button class="w-full">{currentContent.pricing.buyButton}</Button>
+						</CardContent>
+					</Card>
+				{/each}
+			</div>
+		</div>
+	</section>
+
 	<footer class="border-t border-slate-200 px-6 py-16 dark:border-slate-800">
 		<div class="container mx-auto max-w-4xl">
 			<div class="text-center text-sm text-slate-500 dark:text-slate-400">
-				© {year} EpsilonDelta Inc. All rights reserved.
+				<p>EpsilonDelta Inc.</p>
+				<p>123 AI Street, Seoul, Republic of Korea</p>
+				<p class="mt-4">
+					<a href="mailto:contact@epsilondelta.ai" class="hover:underline"
+						>contact@epsilondelta.ai</a
+					>
+				</p>
+				<div class="mt-4 space-x-4">
+					<a href="/terms" class="hover:underline">이용약관 (Terms)</a>
+					<a href="/privacy" class="hover:underline">개인정보처리방침 (Privacy)</a>
+				</div>
+				<p class="mt-8">© {year} EpsilonDelta Inc. All rights reserved.</p>
 			</div>
 		</div>
 	</footer>

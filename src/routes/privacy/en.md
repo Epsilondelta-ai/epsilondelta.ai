@@ -1,0 +1,46 @@
+---
+title: 'EpsilonDelta Privacy Policy'
+effectiveDate: 'Effective Date: July 25, 2024'
+---
+### **EpsilonDelta Privacy Policy**
+
+EpsilonDelta (the "Company") complies with personal information protection regulations under relevant laws, such as the Act on Promotion of Information and Communications Network Utilization and Information Protection, and the Personal Information Protection Act. We are committed to protecting user rights by establishing a privacy policy based on these laws.
+
+**Article 1 (Personal Information Collection and Purpose)**
+1.  The Company collects the following minimum personal information as mandatory items for membership registration, smooth customer consultation, and provision of various services.
+    *   **Items Collected**: Email address, name, password, service usage records, access logs, cookies, access IP information, payment records.
+    *   **Purpose of Use**: Member identification, service provision, contract fulfillment, new service development and marketing/advertising, and responding to inquiries.
+2.  Data such as text and images entered by the user may be collected during service use to improve AI models. This data is used after being de-identified so that individuals cannot be identified.
+
+**Article 2 (Personal Information Retention and Use Period)**
+1.  The Company processes and retains personal information within the period of personal information retention and use stipulated by law or agreed upon when collecting personal information from the information subject.
+2.  In principle, collected personal information is destroyed immediately upon membership withdrawal. However, the following information is retained for the period specified for the reasons below.
+    *   **Records on contracts or subscription withdrawal**: 5 years (Act on Consumer Protection in Electronic Commerce, etc.)
+    *   **Records on payment and supply of goods**: 5 years (Act on Consumer Protection in Electronic Commerce, etc.)
+    *   **Records on consumer complaints or dispute resolution**: 3 years (Act on Consumer Protection in Electronic Commerce, etc.)
+
+**Article 3 (Provision of Personal Information to Third Parties)**
+The Company provides personal information to third parties only when it falls under Articles 17 and 18 of the Personal Information Protection Act, such as with the consent of the information subject or special provisions in the law. Currently, the Company provides personal information to third parties as follows for smooth service provision.
+*   **Recipient**: Paddle.com Market Ltd.
+*   **Purpose**: Payment for service usage fees
+*   **Items Provided**: Email address, payment-related information
+*   **Retention and Use Period**: Until payment processing is complete and for the storage period according to relevant laws.
+
+**Article 4 (Outsourcing of Personal Information Processing)**
+The Company outsources personal information processing as follows for service improvement and stipulates necessary matters for safe management of personal information during outsourcing contracts in accordance with relevant laws.
+*   **Outsourced Company**: (To be specified if necessary)
+*   **Outsourced Tasks**: (To be specified if necessary)
+
+**Article 5 (Rights and Obligations of Information Subjects and How to Exercise Them)**
+As the subject of personal information, users can view or modify their registered personal information at any time and can also request membership withdrawal.
+
+**Article 6 (Installation, Operation, and Refusal of Automatic Personal Information Collection Devices)**
+The Company uses 'cookies' to store and frequently retrieve user information to provide personalized services to users. If you do not wish to use cookies, you can refuse them by adjusting the options in your web browser.
+
+**Article 7 (Chief Privacy Officer)**
+*   **Name**: [Contact Person's Name]
+*   **Title**: [Contact Person's Title]
+*   **Contact**: [Email Address], [Phone Number]
+
+**Article 8 (Duty of Notification)**
+Any additions, deletions, or modifications to the current privacy policy will be notified through the 'Notice' section of the website at least 7 days prior to the revision. 

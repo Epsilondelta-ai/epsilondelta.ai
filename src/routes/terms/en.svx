@@ -1,0 +1,110 @@
+---
+title: EpsilonDelta Service Terms of Use
+---
+
+### **EpsilonDelta Service Terms of Use**
+
+**Chapter 1: General Provisions**
+
+**Article 1 (Purpose)**
+The purpose of these terms is to define the rights, obligations, and responsibilities between the Company and members, as well as other necessary matters, regarding the use of all products and related services (hereinafter "Services") provided by EpsilonDelta (hereinafter "Company").
+
+**Article 2 (Definition of Terms)**
+The definitions of terms used in these terms are as follows:
+1.  **Service**: Refers to all products provided by the Company and related online/offline support services.
+2.  **Member**: Refers to customers who have entered into a usage agreement with the Company in accordance with these terms and use the services provided by the Company.
+3.  **Credits**: Virtual payment means purchased to pay for service usage fees, which are deducted according to service usage frequency or usage amount as determined by the Company's policy. Credits themselves have no monetary value.
+4.  **ID**: Refers to a combination of letters or numbers determined by the member and approved by the Company for member identification and service use.
+5.  **Password**: Refers to a combination of letters or numbers set by the member themselves to confirm that they are the member matching the assigned ID and for security protection.
+
+**Article 3 (Publication and Amendment of Terms)**
+1.  The Company posts the content of these terms on the service initial screen or company website so that members can easily understand them.
+2.  The Company may amend these terms within the scope that does not violate related laws such as the 'Act on the Regulation of Terms and Conditions' and the 'Act on Promotion of Information and Communications Network Utilization and Information Protection'.
+3.  When the Company amends the terms, it shall specify the effective date and reasons for amendment and notify them according to the method in paragraph 1, from 7 days before the effective date of the amended terms until the day before the effective date, along with the current terms. However, in case of amendments unfavorable to members, notice shall be given 30 days in advance, and separate notification shall be made through electronic means such as email and login consent windows for paid service users.
+4.  If a member does not agree to the amended terms, the member may withdraw membership. If the Company notifies according to paragraph 3 and clearly states that 'failure to express explicit objection will be considered consent', and the member does not express objection, it shall be considered that the member has agreed to the amended terms.
+
+**Chapter 2: Service Usage Agreement**
+
+**Article 4 (Membership Registration)**
+1.  Membership registration is concluded when a person who wants to use the service (hereinafter "applicant") agrees to the terms and applies for membership registration, and the Company approves such application.
+2.  The Company may refuse approval or terminate the usage agreement afterwards for applications falling under any of the following:
+    * When the applicant has previously lost membership qualification
+    * When using a false name or another person's name
+    * When false information is provided or required information is not provided
+    * When a minor under 14 years old does not obtain consent from a legal guardian
+    * When membership approval is technically or business-wise difficult
+
+**Article 5 (Changes to Member Information)**
+1.  Members can view and modify their personal information at any time through the personal information management screen.
+2.  When information provided during membership registration changes, members must modify it online or notify the Company of such changes via email or other methods.
+3.  The Company is not responsible for disadvantages arising from failure to notify the Company of changes mentioned in paragraph 2.
+
+**Chapter 3: Credit Purchase, Use, and Refund**
+
+**Article 6 (Credit Purchase)**
+1.  Members can purchase credits through various payment methods provided by the Company.
+2.  Credit purchase units, prices, payment methods, etc., may change according to the Company's policy, and this will be announced within the service.
+3.  When minors purchase credits, they must obtain consent from their legal guardian, and purchases made without consent can be canceled by the legal guardian. However, this does not apply when within the scope of property that the legal guardian has permitted to dispose of, or when the minor has deceived others into believing they are an adult.
+
+**Article 7 (Credit Usage)**
+1.  Credits are used according to the 'Credit Deduction Standards by Service' determined by the Company when using services provided by the Company.
+2.  'Credit Deduction Standards by Service' may vary depending on service content, type, and usage time, and the Company clearly posts this within the service.
+3.  The Company may change 'Credit Deduction Standards by Service' due to service improvements or policy changes, and in such cases, prior notice will be given according to the procedure in Article 3, paragraph 3.
+
+**Article 8 (Credit Validity Period and Expiration)**
+1.  The validity period of credits purchased by members for a fee is **5 years from the purchase date**. However, for bonus credits provided free of charge through promotions, events, etc., the validity period may be separately determined according to the conditions of the respective event.
+2.  Credits that have passed their validity period are automatically expired and cannot be recovered. The Company notifies members of the scheduled expiration 30 days before credit validity period expiration via email or other methods.
+3.  When a member withdraws membership, all held credits (both paid and free) are immediately expired and cannot be recovered or refunded.
+
+**Article 9 (Credit Refund)**
+1.  Members may request refunds for credits purchased for a fee, and the refund policy follows each of the following:
+    * **Full Refund**: If there is no usage history within 7 days after credit purchase, full refund is possible through payment cancellation.
+    * **Partial Refund**: If credits have been partially used or 7 days have passed, refund will be made after deducting **refund fees (10% of remaining credit amount or 1,000 KRW, whichever is greater)** from the remaining credit balance.
+2.  Refunds are not possible in the following cases:
+    * When the contract is terminated due to member's violation of terms of use and related laws without the Company's fault
+    * Bonus credits provided free of charge through events, promotions, etc.
+    * Credits that have expired due to validity period expiration
+3.  Refund amounts will be refunded to the payment method used by the member in principle, but may be refunded in cash if impossible. All costs incurred during cash refunds (bank transfer fees, etc.) may be borne by the member.
+
+**Chapter 4: Obligations of Contracting Parties**
+
+**Article 10 (Company's Obligations)**
+1.  The Company shall not engage in acts prohibited by related laws and these terms or contrary to public morals, and shall make its best efforts to provide services continuously and stably.
+2.  The Company must establish security systems to protect members' personal information and publish and comply with privacy policies.
+3.  The Company must process opinions or complaints raised by members regarding service use when deemed legitimate.
+
+**Article 11 (Member's Obligations)**
+1.  Members shall not engage in the following acts:
+    * Registration of false information during application or changes
+    * Misappropriation of others' information
+    * Alteration of information posted by the Company
+    * Reproduction, distribution, or commercial use of information obtained through the Company's services without prior consent
+    * Attempts to reverse engineer, decompile, disassemble services, or extract source code
+    * Sale, transfer, or rental of credits or service usage rights to others without Company consent
+    * Other illegal or improper acts
+2.  Members must comply with related laws, provisions of these terms, usage guidelines and notices related to services, matters notified by the Company, etc., and shall not engage in acts that interfere with the Company's business.
+
+**Chapter 5: Contract Termination and Usage Restrictions**
+
+**Article 12 (Member's Contract Termination and Usage Restrictions)**
+1.  When a member violates the obligations in Article 11, the Company may terminate the contract or restrict service usage for a specified period after prior notice.
+2.  Members may apply for contract termination through the membership withdrawal function within the service at any time, and the Company will process it immediately.
+3.  Upon membership withdrawal, all held credits will expire according to Article 8, paragraph 3.
+
+**Chapter 6: Miscellaneous**
+
+**Article 13 (Damages)**
+The Company or members are liable to compensate for damages caused to the other party due to their own fault. However, the Company's liability for damages caused by the Company's fault in relation to paid service use shall not exceed the amount paid by the member for the relevant service use or the amount corresponding to remaining credits.
+
+**Article 14 (Limitation of Liability)**
+1.  The Company is exempt from liability for service provision when unable to provide services due to natural disasters or equivalent force majeure.
+2.  The Company is not liable for service usage disruptions due to member's fault.
+3.  The Company is not liable for the reliability, accuracy, etc., of information, materials, and facts posted by members in relation to services.
+
+**Article 15 (Governing Law and Jurisdiction)**
+1.  Lawsuits filed between the Company and members shall be governed by Korean law.
+2.  Lawsuits regarding disputes between the Company and members shall in principle be filed with the competent court under the Civil Procedure Act.
+
+**Addendum**
+
+1.  These terms apply from **July 25, 2024**. 
