@@ -79,15 +79,17 @@
 				buyButton: '구매하기',
 				items: [
 					{
-						price: '$2',
+						price: '$1',
 						credits: '10 크레딧'
 					},
 					{
-						price: '$5',
-						credits: '30 크레딧'
+						price: '$8',
+						credits: '100 크레딧'
 					}
 				],
-				comingSoon: 'More products are coming soon. Stay tuned!'
+				description:
+					'크레딧을 이용해 자사의 서비스들을 이용할 수 있습니다. 현재는 1 크레딧을 이용하여 YouTube 영상 요약을 1회 할 수 있지만, 새로운 제품이 추가되면 다른 제품은 횟수당 크레딧 소모가 다를 수 있습니다.',
+				comingSoon: '더 많은 제품들이 출시될 예정입니다. 기대해주세요!'
 			}
 		},
 		en: {
@@ -144,14 +146,16 @@
 				buyButton: 'Buy Now',
 				items: [
 					{
-						price: '$2',
+						price: '$1',
 						credits: '10 Credits'
 					},
 					{
-						price: '$5',
-						credits: '30 Credits'
+						price: '$8',
+						credits: '100 Credits'
 					}
 				],
+				description:
+					'You can use credits to access our services. Currently, 1 credit allows you to summarize one YouTube video, but as new products are added, the credit consumption per use may differ for other products.',
 				comingSoon: 'More products are coming soon. Stay tuned!'
 			}
 		}
@@ -353,6 +357,9 @@
 					</Card>
 				{/each}
 			</div>
+			<p class="mt-8 text-center text-slate-600 dark:text-slate-400">
+				{@html currentContent.pricing.description}
+			</p>
 		</div>
 	</section>
 
@@ -360,7 +367,6 @@
 		<div class="container mx-auto max-w-4xl">
 			<div class="text-center text-sm text-slate-500 dark:text-slate-400">
 				<p>EpsilonDelta Inc.</p>
-				<p>123 AI Street, Seoul, Republic of Korea</p>
 				<p class="mt-4">
 					<a href="mailto:contact@epsilondelta.ai" class="hover:underline"
 						>contact@epsilondelta.ai</a
