@@ -22,7 +22,6 @@
 			},
 			nav: {
 				services: '서비스',
-				products: '제품',
 				contact: '문의'
 			},
 			hero: {
@@ -102,13 +101,6 @@
 					'통합된 MLOps/DevOps'
 				]
 			},
-			products: {
-				badge: '제품',
-				title: ['우리가 직접', '만들고 운영합니다'],
-				subtitle: '자체 기술로 개발·운영 중인 제품들입니다.',
-				items: [],
-				soon: 'More products coming'
-			},
 			contact: {
 				badge: '문의',
 				title: ['프로젝트 이야기를', '함께 나눠봅시다'],
@@ -129,7 +121,6 @@
 			},
 			nav: {
 				services: 'Services',
-				products: 'Products',
 				contact: 'Contact'
 			},
 			hero: {
@@ -209,13 +200,6 @@
 					'Integrated MLOps and DevOps'
 				]
 			},
-			products: {
-				badge: 'Products',
-				title: ['Built and', 'operated by us'],
-				subtitle: 'Products developed and operated using our own technology stack.',
-				items: [],
-				soon: 'More products coming soon'
-			},
 			contact: {
 				badge: 'Contact',
 				title: ["Let's discuss", 'your project'],
@@ -254,7 +238,6 @@
 
 			<div class="nav-links">
 				<a href="#services" class="nav-link">{c.nav.services}</a>
-				<a href="#products" class="nav-link">{c.nav.products}</a>
 				<a href="#contact" class="nav-link">{c.nav.contact}</a>
 			</div>
 
@@ -385,47 +368,6 @@
 							<span class="why-point-text">{point}</span>
 						</div>
 					{/each}
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- ─── Products ─── -->
-	<section id="products" class="section">
-		<div class="container">
-			<div class="section-intro">
-				<div class="badge">{c.products.badge}</div>
-				<h2 class="section-title">
-					{#each c.products.title as line}
-						<span class="block">{line}</span>
-					{/each}
-				</h2>
-				<p class="section-sub">{c.products.subtitle}</p>
-			</div>
-			<div class="products-grid">
-				{#each c.products.items as product}
-					<div class="product-card">
-						<div class="product-accent"></div>
-						<div class="product-body">
-							<h3 class="product-name">{product.name}</h3>
-							<p class="product-desc">{product.desc}</p>
-						</div>
-						<a
-							href={product.link}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="btn btn-primary product-cta"
-						>
-							{product.cta}
-							<ArrowRight size={15} strokeWidth={2.5} />
-						</a>
-					</div>
-				{/each}
-				<div class="product-card product-soon-card">
-					<div class="product-soon-inner">
-						<span class="product-soon-dot"></span>
-						<p class="product-soon-text">{c.products.soon}</p>
-					</div>
 				</div>
 			</div>
 		</div>
