@@ -106,14 +106,7 @@
 				badge: '제품',
 				title: ['우리가 직접', '만들고 운영합니다'],
 				subtitle: '자체 기술로 개발·운영 중인 제품들입니다.',
-				items: [
-					{
-						name: 'YouTube 영상 요약기',
-						desc: '긴 유튜브 영상을 AI가 핵심만 빠르게 요약. 시간 낭비 없이 중요 내용을 파악하세요.',
-						link: 'https://youtube-summarizer.epsilondelta.ai',
-						cta: '지금 사용해보기'
-					}
-				],
+				items: [],
 				soon: 'More products coming'
 			},
 			contact: {
@@ -220,14 +213,7 @@
 				badge: 'Products',
 				title: ['Built and', 'operated by us'],
 				subtitle: 'Products developed and operated using our own technology stack.',
-				items: [
-					{
-						name: 'YouTube Video Summarizer',
-						desc: 'AI-powered summaries of long YouTube videos—fast and accurate. Get the key points without wasting time.',
-						link: 'https://youtube-summarizer.epsilondelta.ai',
-						cta: 'Try it Now'
-					}
-				],
+				items: [],
 				soon: 'More products coming soon'
 			},
 			contact: {
