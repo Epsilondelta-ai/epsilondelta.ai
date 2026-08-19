@@ -19,7 +19,7 @@
 				description:
 					'AI 에이전트부터 소프트웨어, 인프라와 하드웨어까지. 기업의 문제를 작동하는 결과로 전환합니다.'
 			},
-			nav: { business: '비즈니스', history: '히스토리', vision: '비전', contact: '문의' },
+			nav: { business: '비즈니스', history: '발자취', vision: '비전', contact: '문의' },
 			hero: {
 				label: 'EpsilonDelta',
 				title: ['AX, 막연한 말에서', '손에 잡히는 결과로.'],
@@ -48,7 +48,7 @@
 				productCopy: '복잡한 기술은 뒤로, 사용자가 얻는 가치는 앞으로.'
 			},
 			history: {
-				eyebrow: 'History',
+				eyebrow: '발자취',
 				title: '문제를 함께 풀며 쌓아온 증명',
 				description:
 					'산업과 문제의 형태는 달라도, 목표에 닿는 해답을 실제 결과로 만드는 일을 계속해 왔습니다. 함께한 기업과 프로젝트는 앞으로도 이 기록에 차곡차곡 더해집니다.',
@@ -89,13 +89,13 @@
 				description:
 					'정해진 제품을 끼워 맞추지 않습니다. 엡실론을 정확히 정의하고, 그에 응하는 델타를 찾아 실제 결과로 증명합니다.',
 				steps: [
-					{ index: '01', key: 'DEFINE ε', title: '문제를 정의합니다', body: '기술보다 먼저 비즈니스의 병목과 도달해야 할 목표를 확인합니다.' },
-					{ index: '02', key: 'FIND δ', title: '해답을 설계합니다', body: 'AI, 소프트웨어, 인프라와 하드웨어 중 필요한 조합을 찾습니다.' },
+					{ index: '01', key: 'DEFINE', title: '문제를 정의합니다', body: '기술보다 먼저 비즈니스의 병목과 도달해야 할 목표를 확인합니다.' },
+					{ index: '02', key: 'DESIGN', title: '해답을 설계합니다', body: 'AI, 소프트웨어, 인프라와 하드웨어 중 필요한 조합을 찾습니다.' },
 					{ index: '03', key: 'PROVE', title: '결과로 증명합니다', body: '빠르게 구현하고 실제 환경에서 측정하며 목표에 도달할 때까지 개선합니다.' }
 				]
 			},
 			vision: {
-				eyebrow: 'Vision',
+				eyebrow: '비전',
 				title: '모든 엡실론에는, 응하는 델타가 있습니다.',
 				paragraphs: [
 					'수학에서 ε-δ는 “한없이 가까워진다”는 말을 엄밀하게 증명하는 방법입니다. 목표에 아무리 엄격한 정확도를 요구하더라도, 거기 데려다줄 길은 반드시 존재한다는 약속입니다.',
@@ -188,8 +188,8 @@
 				description:
 					'We never force a preset product. We define epsilon precisely, find the corresponding delta, and prove it through a working outcome.',
 				steps: [
-					{ index: '01', key: 'DEFINE ε', title: 'Define the problem', body: 'Before technology, we clarify the bottleneck and the outcome that matters.' },
-					{ index: '02', key: 'FIND δ', title: 'Design the answer', body: 'We find the right combination of AI, software, infrastructure, and hardware.' },
+					{ index: '01', key: 'DEFINE', title: 'Define the problem', body: 'Before technology, we clarify the bottleneck and the outcome that matters.' },
+					{ index: '02', key: 'DESIGN', title: 'Design the answer', body: 'We find the right combination of AI, software, infrastructure, and hardware.' },
 					{ index: '03', key: 'PROVE', title: 'Prove the result', body: 'We build fast, measure in the real environment, and improve until the goal is reached.' }
 				]
 			},
@@ -483,7 +483,7 @@
 	.answer-result { margin-top: 18px; padding-top: 13px; display: flex; gap: 8px; align-items: center; border-top: 1px solid rgba(255,255,255,.07); color: #8e8e8e; }
 	.answer-result span { color: #8e8e8e; font-size: 9px; letter-spacing: 0; }
 	.product-panel { height: 520px; background: radial-gradient(circle at 70% 25%,rgba(26,255,64,.08),transparent 32%),#181818; }
-	.browser-window { position: absolute; width: 610px; height: 360px; left: 50px; top: 58px; overflow: hidden; border: 1px solid rgba(255,255,255,.13); border-radius: 18px; background: #0e0e0e; box-shadow: 0 34px 70px rgba(0,0,0,.42); }
+	.browser-window { position: absolute; width: 68%; max-width: 800px; height: 360px; left: 50px; top: 58px; overflow: hidden; border: 1px solid rgba(255,255,255,.13); border-radius: 18px; background: #0e0e0e; box-shadow: 0 34px 70px rgba(0,0,0,.42); }
 	.browser-bar { height: 38px; padding: 0 14px; display: flex; align-items: center; border-bottom: 1px solid rgba(255,255,255,.08); color: #4f4f4f; font-size: 8px; }
 	.browser-bar > div { display: flex; gap: 5px; }
 	.browser-bar i { width: 6px; height: 6px; border-radius: 50%; background: #3a3a3a; }
@@ -493,13 +493,13 @@
 	.product-screen h3 { margin: 0; max-width: 360px; font-size: 36px; letter-spacing: -.045em; }
 	.product-screen > span { display: block; margin-top: 18px; color: #797979; font-size: 11px; }
 	.screen-button { width: max-content; margin-top: 30px; padding: 10px 14px; display: flex; align-items: center; gap: 16px; border-radius: 6px; background: var(--green); color: #071008; font-size: 9px; font-weight: 700; }
-	.mobile-window { position: absolute; width: 156px; height: 310px; right: 38px; bottom: 36px; padding: 24px 17px; overflow: hidden; border: 3px solid #333; border-radius: 28px; background: #101010; box-shadow: 0 28px 58px rgba(0,0,0,.5); }
+	.mobile-window { position: absolute; width: 156px; height: 310px; right: clamp(38px,8.5vw,110px); bottom: 36px; padding: 24px 17px; overflow: hidden; border: 3px solid #333; border-radius: 28px; background: #101010; box-shadow: 0 28px 58px rgba(0,0,0,.5); }
 	.mobile-speaker { width: 42px; height: 5px; margin: -14px auto 34px; border-radius: 8px; background: #333; }
 	.mobile-window img { width: 62px; height: 52px; display: block; margin: 0 auto; object-fit: contain; }
 	.mobile-lines { margin-top: 36px; display: grid; gap: 11px; }
 	.mobile-lines i { height: 7px; border-radius: 8px; background: #292929; }
 	.mobile-lines i:nth-child(2) { width: 72%; }
-	.mobile-lines i:nth-child(3) { height: 28px; margin-top: 14px; background: rgba(26,255,64,.8); }
+	.mobile-lines i:nth-child(3) { height: 28px; margin-top: 64px; background: rgba(26,255,64,.8); }
 	.product-steps { position: absolute; left: 50px; bottom: 34px; display: flex; gap: 34px; }
 	.product-steps div { display: flex; gap: 8px; align-items: center; color: #656565; }
 	.product-steps span { font: 8px 'Courier New',monospace; }
@@ -528,7 +528,7 @@
 	.hardware-copy { padding: 0 28px 30px; }
 	.hardware-copy span { color: var(--green); font-size: 8px; letter-spacing: .14em; }
 	.hardware-copy h3 { margin: 10px 0 0; font-size: 18px; line-height: 1.4; letter-spacing: -.025em; word-break: keep-all; }
-	.process-section { margin-top: 150px; padding: 120px 0; background: #181818; }
+	.process-section { margin-top: 150px; padding: 120px 0; background: linear-gradient(180deg,#101010 0,#181818 180px); }
 	.process-list { margin-top: 58px; display: grid; grid-template-columns: repeat(3,1fr); border-top: 1px solid rgba(255,255,255,.1); border-left: 1px solid rgba(255,255,255,.1); }
 	.process-list article { min-height: 280px; padding: 26px; border-right: 1px solid rgba(255,255,255,.1); border-bottom: 1px solid rgba(255,255,255,.1); }
 	.process-meta { display: flex; align-items: center; justify-content: space-between; }
@@ -536,7 +536,7 @@
 	.process-meta strong { color: var(--green); font-size: 14px; letter-spacing: .12em; }
 	.process-list h3 { margin: 76px 0 16px; font-size: 24px; letter-spacing: -.025em; }
 	.process-list p { margin: 0; color: #737373; font-size: 14px; line-height: 1.75; }
-	.vision-section { padding: 160px 0; background: #0c0c0c; }
+	.vision-section { padding: 160px 0; background: linear-gradient(180deg,#181818 0,#0c0c0c 180px); }
 	.vision-layout { display: grid; grid-template-columns: 290px 1fr; gap: 80px; align-items: center; }
 	.vision-art { position: relative; height: 390px; display: grid; place-items: center; overflow: hidden; border: 1px solid rgba(26,255,64,.16); border-radius: 34px; background: radial-gradient(circle,rgba(26,255,64,.07),transparent 55%); }
 	.vision-art img { width: 120px; height: 100px; object-fit: contain; }
