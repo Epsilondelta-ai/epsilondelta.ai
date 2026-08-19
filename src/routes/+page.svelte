@@ -225,7 +225,7 @@
 	<meta name="description" content={c.meta.description} />
 	<meta property="og:title" content={c.meta.title} />
 	<meta property="og:description" content={c.meta.description} />
-	<meta name="theme-color" content="#101010" />
+	<meta name="theme-color" content="#0c0c0c" />
 </svelte:head>
 
 <div class="page">
@@ -417,12 +417,12 @@
 <style>
 	:global(*) { box-sizing: border-box; }
 	:global(html) { scroll-behavior: smooth; scroll-padding-top: 80px; }
-	:global(body) { margin: 0; background: #101010; }
+	:global(body) { margin: 0; background: #0c0c0c; }
 	:global(a) { color: inherit; text-decoration: none; }
 	:global(button) { font: inherit; }
-	.page { --green: #1aff40; --surface: #181818; --surface-raised: #202020; min-height: 100vh; overflow: hidden; background: #101010; color: #f2f2f2; font-family: Inter, Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif; }
+	.page { --green: #1aff40; --surface: #181818; --surface-raised: #202020; min-height: 100vh; overflow: hidden; background: #0c0c0c; color: #f2f2f2; font-family: Inter, Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif; }
 	.story-shell { width: min(1180px, calc(100% - 48px)); margin: 0 auto; }
-	.nav { position: sticky; z-index: 50; top: 0; height: 64px; border-bottom: 1px solid rgba(255,255,255,.07); background: rgba(16,16,16,.9); backdrop-filter: blur(18px); }
+	.nav { position: sticky; z-index: 50; top: 0; height: 64px; border-bottom: 1px solid rgba(255,255,255,.07); background: rgba(12,12,12,.9); backdrop-filter: blur(18px); }
 	.nav-inner { width: min(1180px, calc(100% - 48px)); height: 100%; margin: 0 auto; display: flex; align-items: center; }
 	.brand { display: flex; align-items: center; }
 	.brand-wordmark { width: 112px; height: 25px; object-fit: contain; }
@@ -528,7 +528,7 @@
 	.hardware-copy { padding: 0 28px 30px; }
 	.hardware-copy span { color: var(--green); font-size: 8px; letter-spacing: .14em; }
 	.hardware-copy h3 { margin: 10px 0 0; font-size: 18px; line-height: 1.4; letter-spacing: -.025em; word-break: keep-all; }
-	.process-section { margin-top: 150px; padding: 120px 0; background: linear-gradient(180deg,#101010 0,#181818 180px); }
+	.process-section { margin-top: 150px; padding: 120px 0; background: linear-gradient(180deg,#0c0c0c 0,#181818 180px); }
 	.process-list { margin-top: 58px; display: grid; grid-template-columns: repeat(3,1fr); border-top: 1px solid rgba(255,255,255,.1); border-left: 1px solid rgba(255,255,255,.1); }
 	.process-list article { min-height: 280px; padding: 26px; border-right: 1px solid rgba(255,255,255,.1); border-bottom: 1px solid rgba(255,255,255,.1); }
 	.process-meta { display: flex; align-items: center; justify-content: space-between; }
