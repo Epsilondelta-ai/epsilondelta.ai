@@ -67,8 +67,4 @@
 	.prose {
 		line-height: 1.7;
 	}
-	.prose h3 {
-		margin-top: 2em;
-		font-weight: bold;
-	}
 </style>
