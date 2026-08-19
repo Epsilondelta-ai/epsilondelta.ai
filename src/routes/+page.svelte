@@ -784,13 +784,6 @@
 		margin-bottom: 16px;
 	}
 
-	.section-sub {
-		font-size: 16px;
-		line-height: 1.7;
-		color: #7a8498;
-		max-width: 520px;
-	}
-
 	/* ─── Services ─── */
 	.services-grid {
 		display: grid;
@@ -963,109 +956,6 @@
 		color: #e8ebf5;
 		line-height: 1.5;
 		padding-top: 2px;
-	}
-
-	/* ─── Products ─── */
-	.products-grid {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 16px;
-	}
-
-	@media (max-width: 640px) {
-		.products-grid {
-			grid-template-columns: 1fr;
-		}
-	}
-
-	.product-card {
-		background: #0b0d1a;
-		border: 1px solid rgba(255, 255, 255, 0.07);
-		border-radius: 12px;
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		transition:
-			border-color 0.2s,
-			box-shadow 0.2s;
-	}
-
-	.product-card:hover {
-		border-color: rgba(255, 255, 255, 0.13);
-		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-	}
-
-	.product-accent {
-		height: 3px;
-		background: linear-gradient(90deg, #4d7cf8, #a78bfa);
-		opacity: 0.7;
-	}
-
-	.product-body {
-		padding: 28px 28px 24px;
-		flex: 1;
-	}
-
-	.product-name {
-		font-size: 18px;
-		font-weight: 600;
-		color: #e8ebf5;
-		margin-bottom: 10px;
-		line-height: 1.3;
-	}
-
-	.product-desc {
-		font-size: 14px;
-		line-height: 1.7;
-		color: #6a7386;
-	}
-
-	.product-cta {
-		margin: 0 28px 28px;
-		align-self: flex-start;
-	}
-
-	.product-soon-card {
-		background: #080910;
-		border-style: dashed;
-		border-color: rgba(255, 255, 255, 0.08);
-	}
-
-	.product-soon-inner {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding: 48px 28px;
-		gap: 12px;
-	}
-
-	.product-soon-dot {
-		display: block;
-		width: 8px;
-		height: 8px;
-		border-radius: 50%;
-		background: #4d7cf8;
-		animation: pulse 2s ease-in-out infinite;
-	}
-
-	@keyframes pulse {
-		0%,
-		100% {
-			opacity: 0.4;
-			transform: scale(1);
-		}
-		50% {
-			opacity: 1;
-			transform: scale(1.3);
-		}
-	}
-
-	.product-soon-text {
-		font-size: 14px;
-		color: #4a5268;
-		text-align: center;
 	}
 
 	/* ─── Contact ─── */

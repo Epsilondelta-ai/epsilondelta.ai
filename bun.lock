@@ -13,6 +13,7 @@
         "@internationalized/date": "^3.8.1",
         "@lucide/svelte": "^0.515.0",
         "@storybook/addon-svelte-csf": "^5.0.3",
+        "@storybook/svelte": "^9.0.10",
         "@storybook/sveltekit": "^9.0.10",
         "@sveltejs/adapter-static": "^3.0.8",
         "@sveltejs/kit": "^2.16.0",
