@@ -528,7 +528,7 @@
 	.hardware-copy { padding: 0 28px 30px; }
 	.hardware-copy span { color: var(--green); font-size: 8px; letter-spacing: .14em; }
 	.hardware-copy h3 { margin: 10px 0 0; font-size: 18px; line-height: 1.4; letter-spacing: -.025em; word-break: keep-all; }
-	.process-section { margin-top: 150px; padding: 120px 0; background: linear-gradient(180deg,#0c0c0c 0,#181818 180px); }
+	.process-section { margin-top: 150px; padding: 120px 0; background: #0c0c0c; }
 	.process-list { margin-top: 58px; display: grid; grid-template-columns: repeat(3,1fr); border-top: 1px solid rgba(255,255,255,.1); border-left: 1px solid rgba(255,255,255,.1); }
 	.process-list article { min-height: 280px; padding: 26px; border-right: 1px solid rgba(255,255,255,.1); border-bottom: 1px solid rgba(255,255,255,.1); }
 	.process-meta { display: flex; align-items: center; justify-content: space-between; }
@@ -536,7 +536,7 @@
 	.process-meta strong { color: var(--green); font-size: 14px; letter-spacing: .12em; }
 	.process-list h3 { margin: 76px 0 16px; font-size: 24px; letter-spacing: -.025em; }
 	.process-list p { margin: 0; color: #737373; font-size: 14px; line-height: 1.75; }
-	.vision-section { padding: 160px 0; background: linear-gradient(180deg,#181818 0,#0c0c0c 180px); }
+	.vision-section { padding: 160px 0; background: #0c0c0c; }
 	.vision-layout { display: grid; grid-template-columns: 290px 1fr; gap: 80px; align-items: center; }
 	.vision-art { position: relative; height: 390px; display: grid; place-items: center; overflow: hidden; border: 1px solid rgba(26,255,64,.16); border-radius: 34px; background: radial-gradient(circle,rgba(26,255,64,.07),transparent 55%); }
 	.vision-art img { width: 120px; height: 100px; object-fit: contain; }
