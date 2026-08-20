@@ -505,7 +505,7 @@
 	.product-steps span { font: 8px 'Courier New',monospace; }
 	.product-steps p { margin: 0; font-size: 9px; }
 	.history-panel { position: relative; min-height: 520px; padding: 34px 48px; background: linear-gradient(155deg,#1e211e,#151515 72%); }
-	.history-line { position: absolute; width: 1px; left: 143px; top: 76px; bottom: 76px; background: linear-gradient(to bottom,rgba(26,255,64,.5),rgba(26,255,64,.08)); }
+	.history-line { position: absolute; width: 1px; left: 143px; top: 76px; bottom: 76px; background: rgba(26,255,64,.28); }
 	.history-list { position: relative; }
 	.history-item { min-height: 150px; display: grid; grid-template-columns: 80px 1fr; gap: 42px; align-items: center; border-bottom: 1px solid rgba(255,255,255,.08); }
 	.history-item:last-child { border-bottom: 0; }
