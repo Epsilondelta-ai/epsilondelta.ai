@@ -67,4 +67,49 @@
 	.prose {
 		line-height: 1.7;
 	}
+	:global(.policy-data-card) {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		margin: 1.5rem 0;
+		overflow: hidden;
+		border: 1px solid var(--border);
+		border-radius: 0.75rem;
+		background: var(--card);
+	}
+	:global(.policy-data-field) {
+		min-width: 0;
+		padding: 1.125rem 1.25rem;
+	}
+	:global(.policy-data-field:nth-child(even)) {
+		border-left: 1px solid var(--border);
+	}
+	:global(.policy-data-field:nth-child(n + 3)) {
+		border-top: 1px solid var(--border);
+	}
+	:global(.policy-data-field dt) {
+		margin-bottom: 0.375rem;
+		color: var(--muted-foreground);
+		font-size: 0.8125rem;
+		font-weight: 700;
+		line-height: 1.4;
+	}
+	:global(.policy-data-field dd) {
+		margin: 0;
+		color: var(--card-foreground);
+		font-size: 0.9375rem;
+		line-height: 1.65;
+		word-break: keep-all;
+		overflow-wrap: anywhere;
+	}
+	@media (max-width: 640px) {
+		:global(.policy-data-card) {
+			grid-template-columns: 1fr;
+		}
+		:global(.policy-data-field:nth-child(even)) {
+			border-left: 0;
+		}
+		:global(.policy-data-field:nth-child(n + 2)) {
+			border-top: 1px solid var(--border);
+		}
+	}
 </style>
