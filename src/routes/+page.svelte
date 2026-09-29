@@ -105,7 +105,8 @@
 			},
 			contact: {
 				eyebrow: 'Start with ε',
-				title: '문제가 있으면, 답은 반드시 있습니다.',
+				title: '문제가 있으면',
+				title2: '답은 반드시 있습니다.',
 				description:
 					'아직 정리되지 않은 아이디어여도 괜찮습니다. 지금 막혀 있는 지점부터 함께 이야기해 주세요.',
 				button: '문제 이야기하기'
@@ -204,7 +205,8 @@
 			},
 			contact: {
 				eyebrow: 'Start with ε',
-				title: 'Where there is a problem, there is an answer.',
+				title: 'Where there is a problem',
+				title2: 'There is an answer.',
 				description:
 					'Your idea does not have to be fully formed. Start with where you are stuck.',
 				button: 'Tell us your problem'
@@ -397,6 +399,7 @@
 				<div class="story-copy">
 					<p class="eyebrow"><span></span>{c.contact.eyebrow}</p>
 					<h2>{c.contact.title}</h2>
+					<h2>{c.contact.title2}</h2>
 					<p class="description">{c.contact.description}</p>
 				</div>
 				<a class="contact-button" href="mailto:contact@epsilondelta.ai"><Mail size={18} /><span>{c.contact.button}</span><ArrowRight size={18} /></a>
