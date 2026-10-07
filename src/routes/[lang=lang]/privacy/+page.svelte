@@ -1,65 +1,45 @@
 <script lang="ts">
-	import { onMount, type SvelteComponent } from 'svelte';
+	import * as ko from './ko.svx';
+	import * as en from './en.svx';
 
-	type Lang = 'ko' | 'en';
+	let { data } = $props();
 
-	let currentLang: Lang = 'ko';
-	let policyComponent: typeof SvelteComponent | null = null;
-	let metadata: Record<string, any> | null = null;
-
-	async function switchLanguage(lang: Lang) {
-		currentLang = lang;
-		if (lang === 'ko') {
-			const module = await import('./ko.svx');
-			policyComponent = module.default;
-			metadata = module.metadata;
-		} else {
-			const module = await import('./en.svx');
-			policyComponent = module.default;
-			metadata = module.metadata;
-		}
-	}
-
-	onMount(() => {
-		switchLanguage('ko');
-	});
+	const documents = { ko, en };
+	const { default: Content, metadata } = $derived(documents[data.lang]);
 </script>
 
 <svelte:head>
-	{#if metadata}
-		<title>{metadata.title}</title>
-	{/if}
+	<title>{metadata.title}</title>
+	<link rel="canonical" href="https://epsilondelta.ai/{data.lang}/privacy" />
+	<link rel="alternate" hreflang="ko" href="https://epsilondelta.ai/ko/privacy" />
+	<link rel="alternate" hreflang="en" href="https://epsilondelta.ai/en/privacy" />
 </svelte:head>
 
 <div class="language-switcher">
-	<button class:active={currentLang === 'ko'} on:click={() => switchLanguage('ko')}>
-		한국어
-	</button>
-	<button class:active={currentLang === 'en'} on:click={() => switchLanguage('en')}> EN </button>
+	<a href="/ko/privacy" class:active={data.lang === 'ko'} hreflang="ko">한국어</a>
+	<a href="/en/privacy" class:active={data.lang === 'en'} hreflang="en">English</a>
 </div>
 
-{#if metadata}
-	<div class="prose dark:prose-invert mx-auto max-w-4xl px-6 py-16">
-		<h1>{metadata.title}</h1>
-		<p>{metadata.effectiveDate}</p>
-		{#if policyComponent}
-			<svelte:component this={policyComponent} />
-		{/if}
-	</div>
-{/if}
+<div class="prose dark:prose-invert mx-auto max-w-4xl px-6 py-16">
+	<h1>{metadata.title}</h1>
+	<p>{metadata.effectiveDate}</p>
+	<Content />
+</div>
 
 <style>
 	.language-switcher {
 		text-align: right;
 		padding: 1rem 2rem;
 	}
-	.language-switcher button {
+	.language-switcher a {
+		display: inline-block;
+		text-decoration: none;
 		padding: 0.5rem 1rem;
 		cursor: pointer;
 		border: 1px solid #ccc;
 		background-color: #f0f0f0;
 	}
-	.language-switcher button.active {
+	.language-switcher a.active {
 		background-color: #333;
 		color: white;
 		font-weight: bold;

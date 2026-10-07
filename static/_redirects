@@ -1,0 +1,8 @@
+# Send the root to a language version by browser language (Korean when unknown, e.g. link-preview crawlers).
+/          /ko          302!  Language=ko
+/          /en          302!  Language=en
+/          /ko          302!
+
+# Legacy URLs from before /ko and /en.
+/privacy   /ko/privacy  301!
+/terms     /ko/terms    301!
